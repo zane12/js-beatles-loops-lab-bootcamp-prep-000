@@ -19,9 +19,9 @@ function johnLennonFacts(facts) {
   
   var i = facts.length
   
-  while(i > 1){
-    facts[i] = facts[i] + "!!!"
+  while(i > 0){
     i--
+    facts[i] = facts[i] + "!!!"
   }
   
   return facts
